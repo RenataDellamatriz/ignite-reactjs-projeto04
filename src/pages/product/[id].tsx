@@ -29,7 +29,7 @@ export default function Product({product}: ProductProps) {
   return (
     <ProductContainer key={product.id}>
       <ImageContainer>
-        <Image src={product.imageUrl} alt="" width={520} height={480}/>
+        <Image src={product.imageUrl} alt="" width={520} height={480} />
       </ImageContainer>
 
       <ProductDetails>
